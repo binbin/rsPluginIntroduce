@@ -21,7 +21,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            学习使用说明 - 5min ⏱️
+            学习使用说明git init - 5min ⏱️
           </Link>
         </div>
       </div>
