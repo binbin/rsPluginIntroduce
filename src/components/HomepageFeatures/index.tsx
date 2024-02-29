@@ -14,8 +14,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <div>要求：内网环境+win7及以上64位系统</div>
+        <a href="./赤峰人社业务经办助手_1.0.0.zip">下载</a>
       </>
     ),
   },
@@ -24,8 +24,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <div>要求：内网环境+win7及以上64位系统</div>
+        <a href="./赤峰人社自助服务_1.0.0.zip">下载</a>
       </>
     ),
   },
@@ -34,8 +34,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        要求：日常使用的PC机即可，docker一键安装，需要掌握基本的linux操作，自行配置好网络，档案需要在原系统导出
       </>
     ),
   },

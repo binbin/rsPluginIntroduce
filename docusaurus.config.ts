@@ -3,7 +3,7 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "赤峰人社应用发布平台",
+  title: "赤峰人社经办应用发布平台",
   tagline: "让办事更顺畅，让经办更便捷。",
   favicon: "img/favicon.ico",
 
@@ -25,8 +25,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "cn",
+    locales: ["cn"],
   },
 
   presets: [
@@ -58,70 +58,70 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "My Site",
+      title: "首页",
       logo: {
-        alt: "My Site Logo",
+        alt: "首页",
         src: "img/logo.svg",
       },
       items: [
-        {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Tutorial",
-        },
-        { to: "/blog", label: "Blog", position: "left" },
-        {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
-          position: "right",
-        },
+        // {
+        //   type: "docSidebar",
+        //   sidebarId: "tutorialSidebar",
+        //   position: "left",
+        //   label: "使用说明",
+        // },
+        // { to: "/blog", label: "Blog", position: "left" },
+        // {
+        //   href: "https://github.com/facebook/docusaurus",
+        //   label: "GitHub",
+        //   position: "right",
+        // },
       ],
     },
     footer: {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "帮助",
           items: [
             {
-              label: "Tutorial",
+              label: "使用说明",
               to: "/docs/intro",
             },
           ],
         },
         {
-          title: "Community",
+          title: "链接",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "赤峰人社",
+              href: "http://rsj.chifeng.gov.cn/",
             },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
-            },
+            // {
+            //   label: "Discord",
+            //   href: "https://discordapp.com/invite/docusaurus",
+            // },
+            // {
+            //   label: "Twitter",
+            //   href: "https://twitter.com/docusaurus",
+            // },
           ],
         },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
-            },
-          ],
-        },
+        // {
+        //   title: "More",
+        //   items: [
+        //     {
+        //       label: "Blog",
+        //       to: "/blog",
+        //     },
+        //     {
+        //       label: "GitHub",
+        //       href: "https://github.com/facebook/docusaurus",
+        //     },
+        //   ],
+        // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 赤峰人社经办应用发布平台, Inc. Built with 赤峰人社.`,
     },
     prism: {
       theme: prismThemes.github,
