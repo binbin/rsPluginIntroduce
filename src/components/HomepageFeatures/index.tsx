@@ -14,6 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
+        <div>适合场景：业务经办</div>
         <div>要求：内网环境+win7及以上64位系统</div>
         <a href="./赤峰人社业务经办助手_1.0.0.zip">下载</a>
       </>
@@ -24,6 +25,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
+        <div>适合场景：大厅自助、乡镇、街道、苏木</div>
         <div>要求：内网环境+win7及以上64位系统</div>
         <a href="./赤峰人社自助服务_1.0.0.zip">下载</a>
       </>
@@ -34,7 +36,10 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        要求：日常使用的PC机即可，docker一键安装，需要掌握基本的linux操作，自行配置好网络，档案需要在原系统导出
+        <div>适合场景：业务经办</div>
+        <div>
+          要求：日常使用的PC机即可，docker一键安装，需要掌握基本的linux操作，自行配置好网络，档案需要在原系统导出
+        </div>
       </>
     ),
   },

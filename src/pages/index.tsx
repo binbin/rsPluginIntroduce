@@ -33,7 +33,7 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="让办事更顺畅，让经办更便捷。<head />"
     >
       <HomepageHeader />
