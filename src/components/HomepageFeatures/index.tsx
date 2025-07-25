@@ -10,24 +10,24 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "经办助手",
+    title: "经办助手[1.0.8]",
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
         <div>适合场景：业务经办</div>
         <div>要求：内网环境+win7及以上64位系统</div>
-        <a href="./赤峰人社业务经办助手_1.0.0.zip">下载</a>
+        <a href="./赤峰人社业务经办助手[柜员版]_1.0.8.exe">下载</a>
       </>
     ),
   },
   {
-    title: "自助服务",
+    title: "自助服务[1.0.8]",
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
         <div>适合场景：大厅自助、乡镇、街道、苏木</div>
         <div>要求：内网环境+win7及以上64位系统</div>
-        <a href="./赤峰人社自助服务_1.0.0.zip">下载</a>
+        <a href="./赤峰人社自助服务_1.0.8.exe">下载</a>
       </>
     ),
   },
